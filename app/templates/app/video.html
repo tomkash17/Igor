@@ -1,0 +1,21 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+
+<div class="jumbotron">
+        <h1>Передний вис</h1>
+        <h2>Наш тренер смог удержать передний вис 10 секунд! А сколько сможешь ты?</h2>
+        <video src="/media/video1.mp4"
+               controls="controls"
+               width="800" height="450"
+               poster="/media/fon.jpg"></video><br/>
+        <h1>Подтягивание на одной руке</h1>
+        <h2>В этом видео мы хотим продемонстрировать технику подтягиваний на одной руке!</h2>
+        <video src="/media/video2.mp4"
+               controls="controls"
+               width="800" height="450"
+               poster="/media/fon.jpg"></video>
+</div>
+
+{% endblock %}

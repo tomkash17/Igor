@@ -1,0 +1,17 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load staticfiles %}
+
+<div class="jumbotron">
+    <h2>{{ title }}.</h2>
+    <h3>{{ message }}</h3>
+
+    <address>
+    <strong>Наши социальные сети:</strong><br />
+    <a href="https://vk.com/tomkash"><img src="{% static 'app/content/vk.jpg' %}" width="50px" alt="Вконтакте"/></a>
+    <a href="https://www.instagram.com/eggoranivanov/"><img src="{% static 'app/content/instagram.jpg' %}" width="50px" alt="Инстаграм"/></a>
+    </address>
+</div>
+
+{% endblock %}
