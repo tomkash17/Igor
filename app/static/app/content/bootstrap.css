@@ -6026,6 +6026,7 @@ body.modal-open,
   display: block;
   height: auto;
   max-width: 100%;
+  margin: 0 auto;
   line-height: 1;
 }
 
